@@ -1,41 +1,62 @@
 
-h1{
-    border-bottom:10px ;
-    font-style:italic;
-    background-color:aqua
-}
-ul{
-    list-style-type: none;
-    margin:0 auto;
-    padding:0;
-    overflow:hidden;
-    background-color:aqua;
-    display: table;
-    display:flex;
-    justify-content:center;
-}
-li{
-    float:left;
-    padding-left:15px;
-    padding-right:15px;
-}
-#minecraft{
-    font-size:50px;
-
-
-
-}
-body{
-    background-color: rgb(255, 6, 6) ;
-    background-image:url("images/background.jpg");
-    border:20px ridge rgb(106, 0, 255);
-    padding-left:15px;
+body {
+    background-color: rgb(255, 6, 6);
+    background-image: url("images/background.jpg");
+    border: 20px ridge rgb(106, 0, 255);
+    padding-left: 15px;
     padding-bottom: 10px;
-    text-align:center;  
+    text-align: center;
+    color:blue;
+
 }
-#akj{
-    font-size:100px;
+h1 {
+    border-bottom: 10px;
+    font-style: italic;
+    background-color: aqua;
+    border-radius:25px;
+
+    
 }
-h6{
-    font-size:1px;
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    border-radius:25px;
+    overflow: hidden;
+    background-color: aqua;
+    display: table;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#minecraft {
+    font-size: 50px;
+    border-radius:25px;
+
+
+
+}
+#intro1{
+    background-color :cornflowerblue;
+    border-radius:100%;
+    padding-left:5px;
+}
+p{
+    backdrop-filter: blur(50%);
+    color:rgb(255, 255, 255);
+}
+
+#akj {
+    font-size: 100px;
+}
+
+h6 {
+    font-size: 1px;
 }
