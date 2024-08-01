@@ -9,6 +9,9 @@ body {
     color:blue;
 
 }
+h2{
+    background-color:aqua;
+}
 h1 {
     border-bottom: 10px;
     font-style: italic;
@@ -17,7 +20,9 @@ h1 {
 
     
 }
-
+.background-blue{
+    background-color:blue;
+}
 ul {
     list-style-type: none;
     margin: 0 auto;
@@ -28,18 +33,31 @@ ul {
     display: table;
     display: flex;
     justify-content: center;
+    position:fixed;
+    left:29%
 }
-
+.passive-description{
+    display:flex;
+    column-gap: 15px;
+    align-items: center;
+    background-color:aqua;
+    margin-right:10px;
+}
+.end-line{
+    border-bottom: 5px ridge black;
+}
 li {
     float: left;
     padding-left: 15px;
     padding-right: 15px;
 }
-
+#passive_1{
+    border:5px ridge rgb(7, 236, 248)
+}
 #minecraft {
     font-size: 50px;
     border-radius:25px;
-
+    margin-top:90px;
 
 
 }
