@@ -40,3 +40,10 @@ img{
 #a_div{
     overflow:auto;
 }
+#a_div2{
+    overflow:auto;
+}
+.end-line{
+    border-bottom: 5px ridge black;
+
+}

@@ -18,7 +18,7 @@ ul {
     margin: 0 auto;
     padding: 0;
     border-radius:25px;
-    overflow: hidden;
+    overflow: auto;
     background-color: aqua;
     display: table;
     display: flex;
